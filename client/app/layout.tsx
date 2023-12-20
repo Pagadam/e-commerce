@@ -22,7 +22,7 @@ export default function RootLayout({
 
       <body>
         <Navbar/>
-        <main className='max-w-6xl mx auto'>
+        <main className='mx auto'>
         {children}
         </main>
         
