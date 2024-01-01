@@ -28,12 +28,14 @@ export default async function Gallery({topic}: Props){
 
         
 
-        <section className="px-2 my-3 grid grid-cols-gallery 
+        <section className=" my-3 grid grid-cols-gallery 
         auto-rows-[10px] w-5/6 m-auto">
+
+            <ImgContainer />
           
-                {photosWithBlur.map(photo => (
+                {/* {photosWithBlur.map(photo => (
                     <ImgContainer  key={photo.id}  photo={photo} />
-                ))}
+                ))} */}
         
         </section>
 
